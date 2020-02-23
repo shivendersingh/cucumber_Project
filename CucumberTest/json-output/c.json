@@ -1,0 +1,360 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-23T12:14:06.601Z",
+        "line": 9,
+        "name": "Verification of create user",
+        "description": "",
+        "id": "create-user;verification-of-create-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9147927300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "goto signup page",
+            "match": {
+              "location": "create_user.Open_the_chrome_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 521680000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the details as \"shivender\" and \"12213223\" and \"a@gmail.com\" and \"sadass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shivender",
+                  "offset": 22
+                },
+                {
+                  "val": "12213223",
+                  "offset": 38
+                },
+                {
+                  "val": "a@gmail.com",
+                  "offset": 53
+                },
+                {
+                  "val": "sadass",
+                  "offset": 71
+                }
+              ],
+              "location": "create_user.Enter_the_details_as(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 731384500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is created",
+            "match": {
+              "location": "create_user.user_is_created()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is created",
+            "match": {
+              "location": "create_user.user_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-23T12:14:17.005Z",
+        "line": 10,
+        "name": "Verification of create user",
+        "description": "",
+        "id": "create-user;verification-of-create-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8111951800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "goto signup page",
+            "match": {
+              "location": "create_user.Open_the_chrome_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 424329500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the details as \"shivender\" and \"12213223\" and \"a@gmail.com\" and \"sadass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shivender",
+                  "offset": 22
+                },
+                {
+                  "val": "12213223",
+                  "offset": 38
+                },
+                {
+                  "val": "a@gmail.com",
+                  "offset": 53
+                },
+                {
+                  "val": "sadass",
+                  "offset": 71
+                }
+              ],
+              "location": "create_user.Enter_the_details_as(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 747810700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is created",
+            "match": {
+              "location": "create_user.user_is_created()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is created",
+            "match": {
+              "location": "create_user.user_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-23T12:14:26.289Z",
+        "line": 11,
+        "name": "Verification of create user",
+        "description": "",
+        "id": "create-user;verification-of-create-user;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8210348700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "goto signup page",
+            "match": {
+              "location": "create_user.Open_the_chrome_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 359261200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the details as \"shivender\" and \"12213223\" and \"a@gmail.com\" and \"sadass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shivender",
+                  "offset": 22
+                },
+                {
+                  "val": "12213223",
+                  "offset": 38
+                },
+                {
+                  "val": "a@gmail.com",
+                  "offset": 53
+                },
+                {
+                  "val": "sadass",
+                  "offset": 71
+                }
+              ],
+              "location": "create_user.Enter_the_details_as(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 679123400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is created",
+            "match": {
+              "location": "create_user.user_is_created()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is created",
+            "match": {
+              "location": "create_user.user_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create User",
+    "description": "",
+    "id": "create-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Creat_User.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-23T12:14:35.540Z",
+        "line": 2,
+        "name": "Verification of Reset button",
+        "description": "",
+        "id": "reset-functionality-on-login-page-of-application;verification-of-reset-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 256100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open the Firefox and launch the application",
+            "match": {
+              "location": "TryThisDefs.open_the_Firefox_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the Username and Password",
+            "match": {
+              "location": "TryThisDefs.enter_the_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Reset the credential",
+            "match": {
+              "location": "TryThisDefs.reset_the_credential()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Reset functionality on login page of Application",
+    "description": "",
+    "id": "reset-functionality-on-login-page-of-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TryThis.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-23T12:14:35.541Z",
+        "line": 2,
+        "name": "Verification of website up and running",
+        "description": "",
+        "id": "websiteup-and-running-testing;verification-of-website-up-and-running",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2118441600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open the chrome and launch the application",
+            "match": {
+              "location": "website.Open_the_chrome_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2546895700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the url of a website",
+            "match": {
+              "location": "website.Enter_the_url_of_a_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7114509700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "website should running",
+            "match": {
+              "location": "website.website_should_running()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "websiteup and running testing",
+    "description": "",
+    "id": "websiteup-and-running-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/website_up_and_running.feature",
+    "tags": []
+  }
+]
